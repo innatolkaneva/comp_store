@@ -9,8 +9,7 @@ public class Laptop {
     private double inches;
     private double weight;
     private int price;
-
-
+    
     public Laptop(int id, String brand, String model,  int ram, String os, double inches, double weight, int price) {
         this.id = id;
         this.brand = brand;
@@ -20,10 +19,7 @@ public class Laptop {
         this.inches = inches;
         this.weight = weight;
         this.price = price;
-
-
     }
-
 
     public String getModel() {
         return model;
