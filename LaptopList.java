@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Laptop_list {
+public class LaptopList {
     public static List <Laptop> laptopCreate(){
         String [] brands = {"Asus", "Lenovo", "MSI", "Huawei", "LG"};
         String [] models = {"104A", "201S", "123Y", "295G", "234F"};
